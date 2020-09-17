@@ -24,3 +24,8 @@ databaseChangeLog:
               - column:
                   name: state
                   type: char(2)
+#databaseChangeLog:
+#  - include:
+#      file: classpath:/db/changelog/01-create-test-schema.xml
+#  - include:
+#      file: classpath:/db/changelog/02-insert-test-data.xml
