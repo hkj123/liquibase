@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: Qloud@dev?666
+    url: jdbc:mysql://192.168.2.42:32430/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+  liquibase:
+    enabled: true
+    change-log: "classpath:/db/changelog/db.changelog-master.yaml"
+    contexts: dev
